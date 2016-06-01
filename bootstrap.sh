@@ -23,7 +23,6 @@ sudo cp /home/vagrant/install/sb.conf /etc/apache2/sites-available/sb.conf
 sudo cp /home/vagrant/install/phpmyadmin.conf /etc/apache2/sites-available/phpmyadmin.conf
 sudo a2enmod rewrite
 sudo a2enmod headers
-sudo a2ensite sb
 sudo a2ensite phpmyadmin
 sudo apache2ctl restart
 
