@@ -40,3 +40,9 @@ sudo chmod a+x /usr/local/bin/symfony
 
 sudo service mysql stop
 sudo service mysql start
+
+cd /tmp
+wget https://phar.phpunit.de/phpunit-old.phar
+chmod +x phpunit-old.phar
+sudo mv phpunit-old.phar /usr/local/bin/phpunit
+phpunit --version
