@@ -17,7 +17,8 @@ sudo apt-get update -q -y
 
 sudo apt-get install -q -y apache2 php5 php5-gd php5-intl php5-mysql php5-dev php5-curl phpmyadmin
 sudo apt-get install -q -y php5-cli php5-xdebug php-pear php5-xsl git-core curl mysql-server-5.5 upstart samba
-sudo apt-get clean -y 
+sudo apt-get install -q -y nodejs npm
+sudo apt-get clean -y
 
 sudo cp /home/vagrant/install/sb.conf /etc/apache2/sites-available/sb.conf
 sudo cp /home/vagrant/install/phpmyadmin.conf /etc/apache2/sites-available/phpmyadmin.conf
