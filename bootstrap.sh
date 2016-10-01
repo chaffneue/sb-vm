@@ -47,3 +47,5 @@ wget https://phar.phpunit.de/phpunit-old.phar
 chmod +x phpunit-old.phar
 sudo mv phpunit-old.phar /usr/local/bin/phpunit
 phpunit --version
+
+sudo npm install -g grunt-cli
