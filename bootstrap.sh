@@ -49,3 +49,4 @@ sudo mv phpunit-old.phar /usr/local/bin/phpunit
 phpunit --version
 
 sudo npm install -g grunt-cli
+sudo npm install -g bower
